@@ -1,4 +1,4 @@
-# speakersplit
+# conversationsplit
 
 Splits an mp3/wav/recording, like a podcast, by speaker, using AssemblyAI, into separate recordings.  Useful for audio2face and audio2gesture models.
 
@@ -22,8 +22,8 @@ Fill in the values for your environment in sampledotenvfile, and copy to .env
 ## Usage
 
 ```
-python3 speakersplit.py --filename=notebook.wav --numspeakers=2
+python3 conversationsplit.py --filename=notebook.wav --numspeakers=2
 ```
 where notebook.wav is the audio file you want to split up, and 2 is the number of people speaking in the audio file.
 
-The process outputs files named: speakersplit #.wav
+The process outputs files named: conversationsplit #.wav

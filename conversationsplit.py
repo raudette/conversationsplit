@@ -67,6 +67,6 @@ for index, speaker in enumerate(speakers):
         speakers[speaker]['audio']=speakers[speaker]['audio']+AudioSegment.silent(silence)
 
 for index, speaker in enumerate(speakers):
-    filename = "speakersplit "+str(index)+".wav"
+    filename = "conversationsplit "+str(index)+".wav"
     speakers[speaker]['audio'].export(filename, format="wav")
 
